@@ -8,17 +8,6 @@
         class="flex flex-col justify-start space-y-6"
       >
         <div class="row">
-          <label class="flex flex-col" for="fullName">
-            <span class="font-semibold">Full Name</span>
-            <input
-              id="fullName"
-              class="px-4 py-3 rounded-lg mt-1 border border-gray-100"
-              type="text"
-              placeholder="Full Name"
-            />
-          </label>
-        </div>
-        <div class="row">
           <label class="flex flex-col" for="email">
             <span class="font-semibold">Email Address</span>
             <input
@@ -55,19 +44,19 @@
               rounded-lg
             "
           >
-            Sign Up
+            Sign In
           </button>
         </div>
       </form>
 
       <!-- Start: Direction -->
       <div class="w-full text-center mt-6">
-        <span class="font-semibold">Im alreadly a member.</span>
+        <span class="font-semibold">Im a new user.</span>
         <span class="ml-1">
           <router-link
-            :to="{ name: 'Login', param: {} }"
+            :to="{ name: 'Register', param: {} }"
             class="text-primary font-bold"
-            >Sign In</router-link
+            >Sign Up</router-link
           >
         </span>
       </div>
