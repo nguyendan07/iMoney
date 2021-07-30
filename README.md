@@ -1,4 +1,5 @@
-# i-money
+# iMoney
+iMoney helps you better manage your expenses and plan budgets wisely to save more money for your future.
 
 ## Project setup
 ```
